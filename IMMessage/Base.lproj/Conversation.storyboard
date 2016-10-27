@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7FB-nk-9md">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat With Friends-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Chat With Friends" id="BYZ-38-t0r" customClass="ConversationViewController" customModule="IMMessage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2900" y="-834.33283358320841"/>
+        </scene>
+        <!--Chat List-->
+        <scene sceneID="GXB-gS-ZPe">
+            <objects>
+                <viewController id="g4m-0T-4Wh" customClass="ConversationListViewController" customModule="IMMessage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="63p-ov-4Dp"/>
+                        <viewControllerLayoutGuide type="bottom" id="cvj-ic-Ubm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5OP-97-GvT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="NKT-6Y-w0I"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Chat List" id="dwQ-2q-NNR">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="wvb-oh-dHo">
+                            <connections>
+                                <action selector="openMenu:" destination="g4m-0T-4Wh" id="Z8y-TK-rNo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9oA-cv-U6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2095.1999999999998" y="-834.33283358320841"/>
+        </scene>
+        <!--conversation-->
+        <scene sceneID="Nqe-JL-4zR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7FB-nk-9md" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="conversation" id="tok-fK-ke9"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="NgC-ah-eDd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="g4m-0T-4Wh" kind="relationship" relationship="rootViewController" id="u8q-dl-gEm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1n-ZO-6FT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1156" y="-834.33283358320841"/>
+        </scene>
+    </scenes>
+</document>

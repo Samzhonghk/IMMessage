@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IMMessage/ConversationViewController.swift"
+            timestampString = "498963510.776559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IMMessage/ConversationViewController.swift"
+            timestampString = "498963510.776559"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IMMessage/AppDelegate.swift"
+            timestampString = "498959894.551227"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getUserInfo(withUserId:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IMMessage/AppDelegate.swift"
+            timestampString = "498973541.544792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "connectServer(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IMMessage/ConversationListViewController.swift"
+            timestampString = "499080163.020173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.init (displayConversationTypes : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Any&gt;&gt;, collectionConversationType : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;IMMessage.ConversationListViewController&gt;"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.83717"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.__allocating_init (displayConversationTypes : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Any&gt;&gt;, collectionConversationType : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Array&lt;Any&gt;&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;IMMessage.ConversationListViewController&gt;"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.840601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; IMMessage.ConversationListViewController"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.844134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; IMMessage.ConversationListViewController"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.847601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IMMessage.ConversationListViewController&gt;"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.85192"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IMMessage.ConversationListViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IMMessage.ConversationListViewController&gt;"
+                  moduleName = "IMMessage"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Samzhong/Desktop/IOS/IMMessage/IMMessage/ConversationListViewController.swift"
+                  timestampString = "499080345.855826"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

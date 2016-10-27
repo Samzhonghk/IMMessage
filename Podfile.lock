@@ -1,0 +1,26 @@
+PODS:
+  - GoogleMaps (2.1.0):
+    - GoogleMaps/Maps (= 2.1.0)
+  - GoogleMaps/Base (2.1.0)
+  - GoogleMaps/Maps (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - GooglePlaces (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - KxMenu (1)
+  - RongCloudIMKit (2.7.3)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - KxMenu
+  - RongCloudIMKit
+
+SPEC CHECKSUMS:
+  GoogleMaps: 06589b9a38097bce0cd6e90f0fd9b5e4b4a9344c
+  GooglePlaces: 16e96266483b8010e9f275399403647978523c86
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  RongCloudIMKit: 0b93700b17d224c7c213815b8a23a9c356fe20e2
+
+PODFILE CHECKSUM: dca29db548069678e0cc4ce13900d3d2744c9498
+
+COCOAPODS: 1.0.1
