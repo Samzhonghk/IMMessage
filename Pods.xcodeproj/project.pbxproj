@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2F3E510894FCA1D5EBBF9737D2A6E5 /* KxMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B25DA57D1750E070DB88BB9BF5E6C35C /* KxMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52057AE6BF8D15D30E73E9A621497EF5 /* Pods-IMMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CC086E99F2514C49525EA560528208 /* Pods-IMMessage-dummy.m */; };
+		527B133565B6A60AFE0263274A0F3308 /* Pods-IMMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 228F26C3F06F4BE9D295557441E1CE25 /* Pods-IMMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B98528840D49BDD97D63668C9DC18DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		93C3BFA747DFDB3E0012E1AD0A4724A6 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C08ED91F1ECA7687F41A6F22B9E46BAA /* KxMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B74121ADE1C87639BA2B11BE1185CAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		C7C2772AE4C566098E849CD791C5A10D /* KxMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA2FA6F1FD2E1A2F44958787C2E49BE /* KxMenu-dummy.m */; };
+		CDF6086EFFE4A9FD079EF9468C8853EF /* KxMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FE414B83482904677F684141C2E50E /* KxMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3AADF4C1A768EFCE1CD3C58F6EFC283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CEBFA937F22D616DFF55584675325D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6820846829ED020BAD5FAE69FEDDC861;
+			remoteInfo = KxMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA2FA6F1FD2E1A2F44958787C2E49BE /* KxMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KxMenu-dummy.m"; sourceTree = "<group>"; };
+		11F4E9D78A56CEA40F4335EF4E110087 /* Pods-IMMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMMessage.release.xcconfig"; sourceTree = "<group>"; };
+		1328188593A134ED6140122E15BF7F08 /* KxMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KxMenu.modulemap; sourceTree = "<group>"; };
+		19575F615621EB77AFA57AF395B47EBF /* KxMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KxMenu-prefix.pch"; sourceTree = "<group>"; };
+		19CF1C53024E7C100535235150B9C520 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		228F26C3F06F4BE9D295557441E1CE25 /* Pods-IMMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IMMessage-umbrella.h"; sourceTree = "<group>"; };
+		2688B520201B0BA91DA6CB348D700DB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4DF8E918EC99FCEF8C1C9C64063F0D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2D9C5464D90BF32D231D828F927C78C8 /* Pods-IMMessage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IMMessage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		338FFEC4A0966373AD568096D7BD3D77 /* Pods-IMMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IMMessage.modulemap"; sourceTree = "<group>"; };
+		383DEEF71C027A973A9BF48DE018AE47 /* Pods-IMMessage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMMessage-resources.sh"; sourceTree = "<group>"; };
+		568E9D4FEA460838B777A04D326C8D2D /* Pods-IMMessage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IMMessage-acknowledgements.plist"; sourceTree = "<group>"; };
+		61566395C2FF171C30D0C6D560E54AC0 /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/RongCloud.bundle; sourceTree = "<group>"; };
+		78D791871B1485BF31D70186991BB8DF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		7BEACF1C6E727EF2D189DB4F77F58484 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		80A73AAA715438669CEFF47BDF808CCA /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		8DE875CB5F60EE3F356490B1D7894CE3 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/RCConfig.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99CC086E99F2514C49525EA560528208 /* Pods-IMMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IMMessage-dummy.m"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A3CEF75DE6622FE1FAD4D231F1F69B98 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/zh-Hans.lproj"; sourceTree = "<group>"; };
+		A96119FE927BF17F5E1012591B1151FF /* Pods_IMMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC655BBD8DBE15CAD9323DFFC54351F /* Pods-IMMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2D638B5C16F02E71B7288A3EAB4AB6 /* Pods-IMMessage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMMessage-frameworks.sh"; sourceTree = "<group>"; };
+		B25DA57D1750E070DB88BB9BF5E6C35C /* KxMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KxMenu.h; path = Source/KxMenu.h; sourceTree = "<group>"; };
+		C08ED91F1ECA7687F41A6F22B9E46BAA /* KxMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KxMenu.m; path = Source/KxMenu.m; sourceTree = "<group>"; };
+		C2DD4291E5C8032ABCA94E2849A1A7BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FE414B83482904677F684141C2E50E /* KxMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KxMenu-umbrella.h"; sourceTree = "<group>"; };
+		D0F7BA0FDED3F2264E7B93100228684F /* KxMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KxMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57E2EC0DCBC4032E27D629C39BC655D /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/Emoji.plist; sourceTree = "<group>"; };
+		DC853C91FE4FBAD7BE4DEC409A38619A /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/RongIMLib.framework; sourceTree = "<group>"; };
+		DF64FC0D4809F9F33A58E676300D77B0 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		E11F55A8C3BD5CE32CADAB9A8122F214 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/RongIMKit.framework; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F211AF74DCD1FAB6DD2957A8172CEE53 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable/en.lproj; sourceTree = "<group>"; };
+		F484AC28F6EFACA43EDCC02A47AE88E7 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F5B07E9BF29D452B25B62AEFA12EAE64 /* KxMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KxMenu.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CFF61C8B29C3D4D51D362E2E3FEBBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B98528840D49BDD97D63668C9DC18DF /* Foundation.framework in Frameworks */,
+				B74121ADE1C87639BA2B11BE1185CAEC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5678465A3364BFE15548B7D442D22630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AADF4C1A768EFCE1CD3C58F6EFC283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213F000279B1AED5366888D8FA3B71F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57E2EC0DCBC4032E27D629C39BC655D /* Emoji.plist */,
+				F211AF74DCD1FAB6DD2957A8172CEE53 /* en.lproj */,
+				8DE875CB5F60EE3F356490B1D7894CE3 /* RCConfig.plist */,
+				61566395C2FF171C30D0C6D560E54AC0 /* RongCloud.bundle */,
+				A3CEF75DE6622FE1FAD4D231F1F69B98 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		344F29D2D2BBAC52220774E7E0387387 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E524F4229FAB3F8C6014A3D9B0977CAE /* Frameworks */,
+				AF7B5B3D67B18AF4899823A19985EB7B /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		3FD8B87F6CD88C618EB825BD7D378BC3 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				80304166939B7A0DF4EB0C108282712E /* Base */,
+				344F29D2D2BBAC52220774E7E0387387 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		423A0A4B1388CEC4B3CFB34432A762E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8B87F6CD88C618EB825BD7D378BC3 /* GoogleMaps */,
+				9F22A895E1E8A5575087254F6394396F /* GooglePlaces */,
+				536E62F4A2A3BF9A813BA0110787163C /* KxMenu */,
+				C7891D218C18CFE709411925E79A7A4C /* RongCloudIMKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4979E5DFEBD12000EC67456EF5FEB821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF64FC0D4809F9F33A58E676300D77B0 /* libopencore-amrnb.a */,
+				E11F55A8C3BD5CE32CADAB9A8122F214 /* RongIMKit.framework */,
+				DC853C91FE4FBAD7BE4DEC409A38619A /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536E62F4A2A3BF9A813BA0110787163C /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B25DA57D1750E070DB88BB9BF5E6C35C /* KxMenu.h */,
+				C08ED91F1ECA7687F41A6F22B9E46BAA /* KxMenu.m */,
+				C0C52480D29F60BC5B5CD6FAB34330D7 /* Support Files */,
+			);
+			path = KxMenu;
+			sourceTree = "<group>";
+		};
+		6528ED2CBE1655EE7C478D7201C826E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A73AAA715438669CEFF47BDF808CCA /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				423A0A4B1388CEC4B3CFB34432A762E1 /* Pods */,
+				926002EBA5D95A58B7453D301F50BBCA /* Products */,
+				D9EB32FDBD20870D8408A89279D4947F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7BF43FC9197FB591BC11A667B9887D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19CF1C53024E7C100535235150B9C520 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		80304166939B7A0DF4EB0C108282712E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D8C2CC4954E291E63F3D742F92EE5525 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		80BB853026ECCAF4B550704D12DCC3BB /* Pods-IMMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C2DD4291E5C8032ABCA94E2849A1A7BA /* Info.plist */,
+				338FFEC4A0966373AD568096D7BD3D77 /* Pods-IMMessage.modulemap */,
+				2D9C5464D90BF32D231D828F927C78C8 /* Pods-IMMessage-acknowledgements.markdown */,
+				568E9D4FEA460838B777A04D326C8D2D /* Pods-IMMessage-acknowledgements.plist */,
+				99CC086E99F2514C49525EA560528208 /* Pods-IMMessage-dummy.m */,
+				AF2D638B5C16F02E71B7288A3EAB4AB6 /* Pods-IMMessage-frameworks.sh */,
+				383DEEF71C027A973A9BF48DE018AE47 /* Pods-IMMessage-resources.sh */,
+				228F26C3F06F4BE9D295557441E1CE25 /* Pods-IMMessage-umbrella.h */,
+				ADC655BBD8DBE15CAD9323DFFC54351F /* Pods-IMMessage.debug.xcconfig */,
+				11F4E9D78A56CEA40F4335EF4E110087 /* Pods-IMMessage.release.xcconfig */,
+			);
+			name = "Pods-IMMessage";
+			path = "Target Support Files/Pods-IMMessage";
+			sourceTree = "<group>";
+		};
+		926002EBA5D95A58B7453D301F50BBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7BA0FDED3F2264E7B93100228684F /* KxMenu.framework */,
+				A96119FE927BF17F5E1012591B1151FF /* Pods_IMMessage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F22A895E1E8A5575087254F6394396F /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				6528ED2CBE1655EE7C478D7201C826E8 /* Frameworks */,
+				7E7BF43FC9197FB591BC11A667B9887D /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		AF7B5B3D67B18AF4899823A19985EB7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F484AC28F6EFACA43EDCC02A47AE88E7 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0C52480D29F60BC5B5CD6FAB34330D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2688B520201B0BA91DA6CB348D700DB6 /* Info.plist */,
+				1328188593A134ED6140122E15BF7F08 /* KxMenu.modulemap */,
+				F5B07E9BF29D452B25B62AEFA12EAE64 /* KxMenu.xcconfig */,
+				0EA2FA6F1FD2E1A2F44958787C2E49BE /* KxMenu-dummy.m */,
+				19575F615621EB77AFA57AF395B47EBF /* KxMenu-prefix.pch */,
+				C4FE414B83482904677F684141C2E50E /* KxMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KxMenu";
+			sourceTree = "<group>";
+		};
+		C7891D218C18CFE709411925E79A7A4C /* RongCloudIMKit */ = {
+			isa = PBXGroup;
+			children = (
+				4979E5DFEBD12000EC67456EF5FEB821 /* Frameworks */,
+				213F000279B1AED5366888D8FA3B71F7 /* Resources */,
+			);
+			path = RongCloudIMKit;
+			sourceTree = "<group>";
+		};
+		D8C2CC4954E291E63F3D742F92EE5525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BEACF1C6E727EF2D189DB4F77F58484 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9EB32FDBD20870D8408A89279D4947F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80BB853026ECCAF4B550704D12DCC3BB /* Pods-IMMessage */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E524F4229FAB3F8C6014A3D9B0977CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C4DF8E918EC99FCEF8C1C9C64063F0D /* GoogleMaps.framework */,
+				78D791871B1485BF31D70186991BB8DF /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		132DF7B302F2F183315D8B725EE0EACA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527B133565B6A60AFE0263274A0F3308 /* Pods-IMMessage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6FCF07862A01B3CE33C99A8E1F3E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF6086EFFE4A9FD079EF9468C8853EF /* KxMenu-umbrella.h in Headers */,
+				4B2F3E510894FCA1D5EBBF9737D2A6E5 /* KxMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6820846829ED020BAD5FAE69FEDDC861 /* KxMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC7CFEB5EE1A51262DCCAE6AA2193A8 /* Build configuration list for PBXNativeTarget "KxMenu" */;
+			buildPhases = (
+				261819E57C2B70CE5CA9B8E2AB0A38E3 /* Sources */,
+				2CFF61C8B29C3D4D51D362E2E3FEBBAD /* Frameworks */,
+				8D6FCF07862A01B3CE33C99A8E1F3E83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxMenu;
+			productName = KxMenu;
+			productReference = D0F7BA0FDED3F2264E7B93100228684F /* KxMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E03CBA88BDAA3D7F182AE5786BEE5A7 /* Pods-IMMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C85BFF45E004B640E63BE7609119C9 /* Build configuration list for PBXNativeTarget "Pods-IMMessage" */;
+			buildPhases = (
+				86E92573AB7EA83630C5F769112D9176 /* Sources */,
+				5678465A3364BFE15548B7D442D22630 /* Frameworks */,
+				132DF7B302F2F183315D8B725EE0EACA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				225A133E1EB16485266F4BD7EF6AB9A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-IMMessage";
+			productName = "Pods-IMMessage";
+			productReference = A96119FE927BF17F5E1012591B1151FF /* Pods_IMMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 926002EBA5D95A58B7453D301F50BBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6820846829ED020BAD5FAE69FEDDC861 /* KxMenu */,
+				7E03CBA88BDAA3D7F182AE5786BEE5A7 /* Pods-IMMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261819E57C2B70CE5CA9B8E2AB0A38E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C2772AE4C566098E849CD791C5A10D /* KxMenu-dummy.m in Sources */,
+				93C3BFA747DFDB3E0012E1AD0A4724A6 /* KxMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E92573AB7EA83630C5F769112D9176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52057AE6BF8D15D30E73E9A621497EF5 /* Pods-IMMessage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		225A133E1EB16485266F4BD7EF6AB9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KxMenu;
+			target = 6820846829ED020BAD5FAE69FEDDC861 /* KxMenu */;
+			targetProxy = 8CEBFA937F22D616DFF55584675325D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79449070678E1F3DA56F57951778EE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B07E9BF29D452B25B62AEFA12EAE64 /* KxMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KxMenu/KxMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KxMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KxMenu/KxMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KxMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D26DC7C331C25076BEB16EE71BFDCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B07E9BF29D452B25B62AEFA12EAE64 /* KxMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KxMenu/KxMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KxMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KxMenu/KxMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KxMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB5F49CBB7E2FC7B8741FDBF7FAB5965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F4E9D78A56CEA40F4335EF4E110087 /* Pods-IMMessage.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IMMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IMMessage/Pods-IMMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IMMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5A148CBE87616ED9682EBA2D809A096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC655BBD8DBE15CAD9323DFFC54351F /* Pods-IMMessage.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IMMessage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IMMessage/Pods-IMMessage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IMMessage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C85BFF45E004B640E63BE7609119C9 /* Build configuration list for PBXNativeTarget "Pods-IMMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A148CBE87616ED9682EBA2D809A096 /* Debug */,
+				DB5F49CBB7E2FC7B8741FDBF7FAB5965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC7CFEB5EE1A51262DCCAE6AA2193A8 /* Build configuration list for PBXNativeTarget "KxMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79449070678E1F3DA56F57951778EE3E /* Debug */,
+				9D26DC7C331C25076BEB16EE71BFDCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
